@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "payment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paymentid": {
+      "type": "string"
+    },
+    "payment": {
+      "type": "decimal"
+    },
+    "username": {
+      "type": "string"
+    },
+    "userid": {
+      "type": "integer"
+    },
+    "orederdetails": {
+      "type": "json"
+    }
+  }
+}
